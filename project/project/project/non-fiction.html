@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Non-Fiction Books - Professional Book Store</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <h1>book store</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="hero">
+    <h2>Non-Fiction books</h2>
+    <p>Engage with enlightening narratives, gain insights, and deepen understanding.".</p>
+</div>
+
+<div class="book-container">
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://www.amazon.com/Ultimate-Anxiety-Free-Collection-conquer/dp/1072358794')">
+        <img src="images/Non-fiction1.jpeg" alt="non-fiction Book 1">
+        <h3>The Ultimate Anxiety Free</h3>
+        <p>Author: Chris Moss</p>
+        <p>Price: 19.99</p>
+        <div class="details">
+            <p>"Step into the shadows of crime and mystery, where secrets lurk around every corner and clues lead to thrilling revelations, keeping readers captivated from start to finish."</p>
+        </div>
+    </div>  
+    
+    
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://www.amazon.com/Incredible-Journeys-HB/dp/1988550297')">
+        <img src="images/non-fiction2.jpeg" alt="Fiction Book 2">
+        <h3>Incredible journeys</h3>
+        <p>Author: Ned barraud</p>
+        <p>Price: 24.99</p>
+        <div class="details">
+            <p>dive to the deep of the mysteries, where there is alot to find out.</p>
+        </div>
+    </div>
+
+   
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

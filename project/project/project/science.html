@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Science Books - Professional Book Store</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <h1>book store</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="hero">
+    <h2>science books</h2>
+    <p>"Embark on an illuminating journey, unlocking the wonders of scientific exploration.".</p>
+</div>
+
+<div class="book-container">
+
+    <div class="book" onclick="toggleDetails(this)"ondblclick="redirectToAmazon('https://www.amazon.com/Complete-Book-Outer-Space/dp/B000N5P79Q')">
+        <img src="images/science1.jpeg " alt="Fiction Book 1">
+        <h3>The outter space</h3>
+        <p>Author:Emily hopeins</p>
+        <p>Price: $19.99</p>
+        <div class="details">
+            <p>"Embark on an enlightening odyssey through the vast expanse of human knowledge, delving deep into the intricacies of scientific inquiry.</p>
+        </div>
+    </div>
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://www.amazon.com/Grey-Aliens-Artificial-Intelligence-Synthetic/dp/1591434491')">
+        <img src="images/science.jpeg" alt="Fiction Book 2">
+        <h3>The artificial Spirit</h3>
+        <p>Author:Apeien lefever</p>
+        <p>Price:24.99</p>
+        <div class="details">
+            <p>Join the ranks of intrepid explorers, as you navigate the labyrinthine corridors of scientific exploration, forging new frontiers of knowledge with each step</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

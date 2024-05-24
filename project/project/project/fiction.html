@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fiction Books - Professional Book Store</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <h1>book store</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="hero">
+    <h2>Fiction books</h2>
+    <p>Explore a collection of captivating fiction books.</p>
+</div>
+
+<div class="book-container">
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://www.amazon.com/SOUL-Portuguese-OL%C3%8DVIA-WILSON-ebook/dp/B0CDSLRT8N')">
+        <img src="images/fiction1.jpeg" alt="Fiction Book 1">
+        <h3>Soul</h3>
+        <p>Olivia Wilson</p>
+        <p>Price: 19.99</p>
+        <div class="details">
+            <p>"Enter the world of suspense and intrigue, where detectives untangle complex webs of deception, and each page turn brings new twists and turns, leaving readers guessing until the very end."
+            </p>
+        </div>
+    </div>
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://bokify.webflow.io/product/hide-and-seek')">
+        <img src="images/fiction2.jpeg" alt="Fiction Book 2">
+        <h3>Hide and sike</h3>
+        <p>Olivia Wilson</p>
+        <p>Price: 24.99</p>
+        <div class="details">
+            <p>"Step into the shadows of crime and mystery, where secrets lurk around every corner and clues lead to thrilling revelations, keeping readers captivated from start to finish."
+            </p>
+        </div>
+    </div>
+
+   
+
+</div>
+
+<script src="index.js"></script>
+<script>
+    function redirectToAmazon(url) {
+        window.open(url, '_blank');
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Horror Books - Professional Book Store</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <h1>book store</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="hero">
+    <h2>Horror books</h2>
+    <p>Explore a collection of captivating fiction books.</p>
+</div>
+
+<div class="book-container">
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://www.amazon.com/Madhouse-Suspenseful-Horror-Miguel-Estrada-ebook/dp/B076SJWBR9/ref=sr_1_5?crid=36E2RRJT6CARJ&dib=eyJ2IjoiMSJ9.O_2oaOjmUQaPmaH9QThcil9mgxL08w2GgL_TezgphC8WiEUbvXogW1owASZRsJWyG8_bgaf_7nck6Gnzw6R9uLoIYGjoFk835w4j8G7ryGj1hJyneEjzuoIcMXKWDIbgdOAFnqBgUl1nKXXlpwKrrtQz3NgjpvYZ6W3JDVBaRusc_lKCYvvGyP1lIzBgMRES2UK-U7JQYQOg5JgeViiIJzRYOF3sGzKyy76x7JXRNHI.FC8n9qIqnF5VKoGPA1PS_YZWVWpv5dvWPYhftmFqw_U&dib_tag=se&keywords=horror&qid=1715094497&s=books&sprefix=horror%2Cstripbooks-intl-ship%2C274&sr=1-5')">
+        <img src="images/horror1.jpg" alt="horror rBook 1">
+        <h3>Mad House</h3> 
+        <p>Miguel estrada</p>
+        <p>Price: 19.99</p>
+        <div class="details">
+            <p>
+
+                "Descend into the shadows of terror, where each sentence drips with dread and every chapter is a descent into darkness, gripping readers with fear that lingers long after the book is closed."
+        </div>
+    </div>
+
+    <div class="book" onclick="toggleDetails(this)" ondblclick="redirectToAmazon('https://bokify.webflow.io/product/hide-and-seek')">
+        <img src="images/horror2.jpg" alt="horror Book 2">
+        <h3>Possession</h3>
+        <p>Drusilla Carlisle</p>
+        <p>Price: 24.99</p>
+        <div class="details">
+            <p>
+                "Descend into the shadows of terror, where each sentence drips with dread and every chapter is a descent into darkness, gripping readers with fear that lingers long after the book is closed."
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="index.js"></script>
+<script>
+    function redirectToAmazon(url) {
+        window.open(url, '_blank');
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="login.css">
+<title>User Information</title>
+</head>
+<body>
+    <h2>User Information</h2>
+    <div class="image">
+        <img src="images/login1.jpg" width="250">
+    </div>
+    <label for="name">Enter Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="age">Enter Age:</label>
+    <input type="text" id="age"><br><br>
+
+    <label for="course">Enter address:</label>
+    <input type="text" id="course"><br><br>
+
+    
+    <button onclick="redirectToWebsite('index.html')">Go to website</button>
+    <div id="output"></div>
+
+    <script>
+       
+        
+
+        function redirectToWebsite(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
